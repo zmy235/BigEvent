@@ -1,10 +1,10 @@
 var impress = $.browser.msie?undefined:impress();
 
 //预加载图片
-new Image().src = "./img/bg04.jpg";
 new Image().src = "./img/bg01.jpg";
 new Image().src = "./img/bg02.jpg";
 new Image().src = "./img/bg03.jpg";
+new Image().src = "./img/bg04.jpg";
 
 var replay = function(){
 	if(impress){
